@@ -11,15 +11,15 @@ import DividerUI from "../../dump/DividerUI";
 const menuItems = [
   { label: "Contests", href: "/contests" },
   { label: "User Management", href: "/users" },
-  { label: "Marketing Campaigns", href: "/campaigns" },
-  { label: "Leaderboard Control", href: "/leaderboard" },
-  { label: "Analytics", href: "/analytics" },
+  { label: "Marketing Campaigns", href: "/contests" },
+  { label: "Leaderboard Control", href: "/contests" },
+  { label: "Analytics", href: "/contests" },
 ];
 
 const submenuItems = [
-  { label: "Notifications", href: "/notifications" },
-  { label: "Security", href: "/security" },
-  { label: "Feedback & Support", href: "/support" },
+  { label: "Notifications", href: "/contests" },
+  { label: "Security", href: "/contests" },
+  { label: "Feedback & Support", href: "/contests" },
 ];
 
 export default function SidebarAdmin() {
